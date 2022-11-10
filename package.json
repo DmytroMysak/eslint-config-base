@@ -3,16 +3,17 @@
   "version": "1.0.0",
   "description": "Custom eslint rule for js and ts file (extends airbnb)",
   "main": "index.js",
-  "keywords": [
-    "eslint",
-    "code",
-    "config",
-    "style",
-    "javascript"
+  "files": [
+    "package.json",
+    "index.js",
+    ".eslintrc.js"
   ],
-  "author": "Dmytro Mysak",
-  "license": "ISC",
+  "scripts": {
+    "cz": "cz",
+    "semantic-release": "semantic-release"
+  },
   "devDependencies": {
+    "@netly/semantic-release-config": "^1.0.2",
     "@typescript-eslint/eslint-plugin": "^5.21.0",
     "@typescript-eslint/parser": "^5.21.0",
     "eslint": "^8.14.0",
@@ -28,6 +29,14 @@
     "eslint-config-prettier": "8.x.x",
     "eslint-plugin-import": "2.x.x"
   },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DmytroMysak/eslint-config-base.git"
@@ -35,5 +44,14 @@
   "bugs": {
     "url": "https://github.com/DmytroMysak/eslint-config-base/issues"
   },
-  "homepage": "https://github.com/DmytroMysak/eslint-config-base#readme"
+  "homepage": "https://github.com/DmytroMysak/eslint-config-base#readme",
+  "keywords": [
+    "eslint",
+    "code",
+    "config",
+    "style",
+    "javascript"
+  ],
+  "author": "Dmytro Mysak <dmytro.mysak@gmail.com>",
+  "license": "MIT"
 }
