@@ -1,6 +1,6 @@
 {
   "name": "@netly/eslint-config-base",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Custom eslint rule for js and ts file (extends airbnb)",
   "main": "index.js",
   "files": [
