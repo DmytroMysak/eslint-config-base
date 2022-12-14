@@ -14,7 +14,5 @@ $ npm i -D @netly/eslint-config-base
 In eslint config file:
 
 ```js
-"extends": [
-   "base"
- ],
+extends: ['@netly/eslint-config-base'],
 ```
