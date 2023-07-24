@@ -16,20 +16,22 @@
   },
   "devDependencies": {
     "@netly/semantic-release-config": "^1.0.2",
-    "@typescript-eslint/eslint-plugin": "^5.46.1",
-    "@typescript-eslint/parser": "^5.46.1",
-    "eslint": "^8.29.0",
+    "@typescript-eslint/eslint-plugin": "^6.2.0",
+    "@typescript-eslint/parser": "^6.2.0",
+    "eslint": "^8.45.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-import": "^2.26.0",
-    "npm-check-updates": "^16.6.0"
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-import-resolver-typescript": "^3.5.5",
+    "eslint-plugin-import": "^2.27.5",
+    "npm-check-updates": "^16.10.16"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "5.x.x",
-    "@typescript-eslint/parser": "5.x.x",
+    "@typescript-eslint/eslint-plugin": "6.x.x",
+    "@typescript-eslint/parser": "6.x.x",
     "eslint": "8.x.x",
     "eslint-config-airbnb-base": "15.x.x",
     "eslint-config-prettier": "8.x.x",
+    "eslint-import-resolver-typescript": "3.x.x",
     "eslint-plugin-import": "2.x.x"
   },
   "config": {
