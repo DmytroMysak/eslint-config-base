@@ -15,7 +15,7 @@
     "semantic-release": "semantic-release"
   },
   "devDependencies": {
-    "@netly/semantic-release-config": "^1.0.2",
+    "@netly/semantic-release-config": "^1.0.3",
     "@typescript-eslint/eslint-plugin": "^6.2.0",
     "@typescript-eslint/parser": "^6.2.0",
     "eslint": "^8.45.0",
@@ -23,7 +23,7 @@
     "eslint-config-prettier": "^8.8.0",
     "eslint-import-resolver-typescript": "^3.5.5",
     "eslint-plugin-import": "^2.27.5",
-    "npm-check-updates": "^16.10.16"
+    "npm-check-updates": "^16.10.17"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "6.x.x",
