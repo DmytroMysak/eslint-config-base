@@ -5,6 +5,19 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.2](https://github.com/DmytroMysak/eslint-config-base/compare/v1.1.1...v1.1.2) (2023-07-25)
+
+### Bug Fixes
+
+- fixed: Unexpected top-level property "import/resolver" ([1c2620a](https://github.com/DmytroMysak/eslint-config-base/commit/1c2620a58d911a2547d2cc9c5b3856fcafb93c65))
+
+<!-- markdownlint-disable --><!-- textlint-disable -->
+
+# 📓 Changelog
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
 ## [1.1.1](https://github.com/DmytroMysak/eslint-config-base/compare/v1.1.0...v1.1.1) (2023-07-25)
 
 ### Bug Fixes
