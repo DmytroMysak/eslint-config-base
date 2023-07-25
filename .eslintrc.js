@@ -9,9 +9,6 @@ module.exports = {
     sourceType: "module",
     project: ["tsconfig.json"],
   },
-  "import/resolver": {
-    typescript: {},
-  },
   settings: {
     "import/resolver": {
       typescript: {},
