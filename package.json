@@ -1,38 +1,29 @@
 {
   "name": "@netly/eslint-config-base",
   "version": "1.1.2",
-  "description": "Custom eslint rule for js and ts file (extends airbnb)",
-  "main": "index.js",
+  "description": "Custom eslint rule for js and ts file",
+  "main": "eslint.config.js",
+  "type": "module",
   "files": [
     "package.json",
-    "index.js",
-    ".eslintrc.js",
+    "eslint.config.js",
     "README.md"
   ],
   "scripts": {
     "cz": "cz",
-    "update": "ncu -u",
+    "update": "npx npm-check-updates",
     "semantic-release": "semantic-release"
   },
   "devDependencies": {
-    "@netly/semantic-release-config": "^1.0.3",
-    "@typescript-eslint/eslint-plugin": "^6.2.0",
-    "@typescript-eslint/parser": "^6.2.0",
-    "eslint": "^9.1.1",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-prettier": "^9.0.0",
-    "eslint-import-resolver-typescript": "^3.5.5",
-    "eslint-plugin-import": "^2.27.5",
-    "npm-check-updates": "^16.10.17"
+    "@eslint/js": "9.2.0",
+    "@netly/semantic-release-config": "1.0.3",
+    "@stylistic/eslint-plugin": "2.1.0",
+    "eslint": "9.2.0"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "6.x.x",
-    "@typescript-eslint/parser": "6.x.x",
-    "eslint": "8.x.x",
-    "eslint-config-airbnb-base": "15.x.x",
-    "eslint-config-prettier": "8.x.x",
-    "eslint-import-resolver-typescript": "3.x.x",
-    "eslint-plugin-import": "2.x.x"
+    "@eslint/js": ">=9",
+    "@stylistic/eslint-plugin": ">=2",
+    "eslint": ">=9"
   },
   "config": {
     "commitizen": {
