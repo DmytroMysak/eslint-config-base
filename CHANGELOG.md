@@ -5,6 +5,19 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.0](https://github.com/DmytroMysak/eslint-config-base/compare/v1.1.2...v1.2.0) (2024-05-13)
+
+### Features
+
+- **eslint:** try to use flat eslint config ([d18f9ca](https://github.com/DmytroMysak/eslint-config-base/commit/d18f9cae3aabf6634dad2b05d343a1ee531f486e))
+
+<!-- markdownlint-disable --><!-- textlint-disable -->
+
+# 📓 Changelog
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
 ## [1.1.2](https://github.com/DmytroMysak/eslint-config-base/compare/v1.1.1...v1.1.2) (2023-07-25)
 
 ### Bug Fixes
