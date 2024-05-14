@@ -18,12 +18,14 @@
     "@eslint/js": "9.2.0",
     "@netly/semantic-release-config": "1.0.3",
     "@stylistic/eslint-plugin": "2.1.0",
-    "eslint": "9.2.0"
+    "eslint": "8.56.0",
+    "typescript-eslint": "7.9.0"
   },
   "peerDependencies": {
     "@eslint/js": ">=9",
     "@stylistic/eslint-plugin": ">=2",
-    "eslint": ">=9"
+    "eslint": "8.56.0",
+    "typescript-eslint": "7.9.0"
   },
   "config": {
     "commitizen": {
