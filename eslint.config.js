@@ -4,20 +4,27 @@ import globals from 'globals';
 import typescriptEslint from 'typescript-eslint';
 
 export default [
-  js.configs.recommended,
-  {
-    files: ['**/*.ts'],
-    extends: [
-      ...typescriptEslint.configs.strictTypeChecked,
-      ...typescriptEslint.configs.stylisticTypeChecked,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: true,
-        tsconfigRootDir: import.meta.dirname,
+  ...typescriptEslint.config(
+    { files: ['**/build/**', '**/dist/**', '**/*.js'] },
+    ...typescriptEslint.configs.strictTypeChecked,
+    ...typescriptEslint.configs.stylisticTypeChecked,
+    {
+      plugins: {
+        '@typescript-eslint': typescriptEslint.plugin,
+      },
+      languageOptions: {
+        parser: typescriptEslint.parser,
+        parserOptions: {
+          project: true,
+        },
       },
     },
-  },
+    {
+      files: ['**/*.js'],
+      ...typescriptEslint.configs.disableTypeChecked,
+    },
+  ),
+  js.configs.recommended,
   stylistic.configs.customize({
     indent: 2,
     quotes: 'single',
