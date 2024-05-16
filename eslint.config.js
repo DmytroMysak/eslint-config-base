@@ -17,6 +17,13 @@ export default [
           project: true,
         },
       },
+      rules: {
+        '@typescript-eslint/no-extraneous-class': 'off',
+        '@typescript-eslint/interface-name-prefix': 'off',
+        '@typescript-eslint/consistent-type-exports': 'error',
+        '@typescript-eslint/consistent-type-imports': 'error',
+        '@typescript-eslint/no-import-type-side-effects': 'error',
+      },
     },
     {
       files: ['**/*.js'],
