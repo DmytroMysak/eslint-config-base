@@ -21,13 +21,14 @@ export default [
         '@typescript-eslint/no-extraneous-class': 'off',
         '@typescript-eslint/interface-name-prefix': 'off',
         '@typescript-eslint/consistent-type-exports': 'error',
-        '@typescript-eslint/consistent-type-imports': [{
+        '@typescript-eslint/consistent-type-imports': ['error', {
           prefer: 'type-imports',
           disallowTypeAnnotations: true,
           fixStyle: 'inline-type-imports',
         }],
         '@typescript-eslint/no-import-type-side-effects': 'error',
         '@typescript-eslint/no-confusing-void-expression': [
+          'error',
           { ignoreArrowShorthand: true, ignoreVoidOperator: false },
         ]
       },
