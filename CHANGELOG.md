@@ -5,6 +5,19 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.8](https://github.com/DmytroMysak/eslint-config-base/compare/v1.2.7...v1.2.8) (2024-05-17)
+
+### Bug Fixes
+
+- **rules:** update rule, added: no-unused-vars ([487eb5a](https://github.com/DmytroMysak/eslint-config-base/commit/487eb5aeb3ff35317fd34dbfc6487586d209c758))
+
+<!-- markdownlint-disable --><!-- textlint-disable -->
+
+# 📓 Changelog
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
 ## [1.2.7](https://github.com/DmytroMysak/eslint-config-base/compare/v1.2.6...v1.2.7) (2024-05-16)
 
 ### Bug Fixes
