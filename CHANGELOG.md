@@ -5,6 +5,19 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.9](https://github.com/DmytroMysak/eslint-config-base/compare/v1.2.8...v1.2.9) (2024-05-19)
+
+### Bug Fixes
+
+- **rules:** added rule: @typescript-eslint/explicit-function-return-type ([b81946d](https://github.com/DmytroMysak/eslint-config-base/commit/b81946d51021eb69a9d9a1edcb23f05fdd9bcb91))
+
+<!-- markdownlint-disable --><!-- textlint-disable -->
+
+# 📓 Changelog
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
 ## [1.2.8](https://github.com/DmytroMysak/eslint-config-base/compare/v1.2.7...v1.2.8) (2024-05-17)
 
 ### Bug Fixes
