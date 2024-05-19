@@ -4,6 +4,7 @@ import typescriptEslint from 'typescript-eslint';
 
 export default [
   ...typescriptEslint.config(
+    js.configs.recommended,
     ...typescriptEslint.configs.strictTypeChecked,
     ...typescriptEslint.configs.stylisticTypeChecked,
     {
@@ -41,7 +42,6 @@ export default [
       ...typescriptEslint.configs.disableTypeChecked,
     },
   ),
-  js.configs.recommended,
   {
     rules: {
       'max-len': ['error', { code: 120 }],
@@ -50,12 +50,6 @@ export default [
       globals: {
         ...globals.node,
       },
-    },
-  },
-  {
-    files: ['**/*.ts'],
-    rules: {
-      'no-unused-vars': 'off',
     },
   },
 ];
