@@ -17,7 +17,6 @@ export default [
         },
       },
       rules: {
-        'no-unused-vars': 'off',
         '@typescript-eslint/no-extraneous-class': 'off',
         '@typescript-eslint/interface-name-prefix': 'off',
         '@typescript-eslint/consistent-type-exports': 'error',
@@ -30,6 +29,7 @@ export default [
           },
         ],
         '@typescript-eslint/no-import-type-side-effects': 'error',
+        '@typescript-eslint/explicit-function-return-type': 'error',
         '@typescript-eslint/no-confusing-void-expression': [
           'error',
           { ignoreArrowShorthand: true, ignoreVoidOperator: false },
@@ -50,6 +50,12 @@ export default [
       globals: {
         ...globals.node,
       },
+    },
+  },
+  {
+    files: ['**/*.ts'],
+    rules: {
+      'no-unused-vars': 'off',
     },
   },
 ];
