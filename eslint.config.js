@@ -41,6 +41,12 @@ export default [
       files: ['**/*.js'],
       ...typescriptEslint.configs.disableTypeChecked,
     },
+    {
+      files: ['**/*.js'],
+      rules: {
+        '@typescript-eslint/explicit-function-return-type': 'off',
+      },
+    },
   ),
   {
     rules: {
