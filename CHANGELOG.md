@@ -5,6 +5,19 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.13](https://github.com/DmytroMysak/eslint-config-base/compare/v1.2.12...v1.2.13) (2024-12-09)
+
+### Bug Fixes
+
+- **@typescript-eslint/restrict-template-expressions:** fixed rule restrict-template-expressions ([8d5ad94](https://github.com/DmytroMysak/eslint-config-base/commit/8d5ad9453b5ba4c66d577c81b22a0c38e17c6f31))
+
+<!-- markdownlint-disable --><!-- textlint-disable -->
+
+# 📓 Changelog
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
 ## [1.2.12](https://github.com/DmytroMysak/eslint-config-base/compare/v1.2.11...v1.2.12) (2024-12-09)
 
 ### Bug Fixes
