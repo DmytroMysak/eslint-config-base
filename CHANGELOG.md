@@ -5,6 +5,27 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.0](https://github.com/DmytroMysak/eslint-config-base/compare/v1.3.3...v1.4.0) (2026-04-23)
+
+### Features
+
+- **eslint:** version update ([c05334a](https://github.com/DmytroMysak/eslint-config-base/commit/c05334a1d34c70dbeb277ea610d02ba680ab40e4))
+
+### Bug Fixes
+
+- **ci:** fix CI ([eb5b4a9](https://github.com/DmytroMysak/eslint-config-base/commit/eb5b4a982146b2e5ad9c7642db4550a87300e025))
+- **ci:** fixed CI ([f981a85](https://github.com/DmytroMysak/eslint-config-base/commit/f981a85f2f3a19b6423e0994209fe131aff7d07d))
+- **ci:** fixed CI ([26930cf](https://github.com/DmytroMysak/eslint-config-base/commit/26930cfc88b91f67384abc968284296941469751))
+- **package:** fixed packages ([9b8a8a0](https://github.com/DmytroMysak/eslint-config-base/commit/9b8a8a02a1282ecf1349156549a96f3d34bab622))
+- **packages:** fix packages ([76eec6a](https://github.com/DmytroMysak/eslint-config-base/commit/76eec6ad5ceb96d3021021f701e37b70ed7cd955))
+
+<!-- markdownlint-disable --><!-- textlint-disable -->
+
+# 📓 Changelog
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
 ## [1.3.3](https://github.com/DmytroMysak/eslint-config-base/compare/v1.3.2...v1.3.3) (2026-02-04)
 
 ### Bug Fixes
